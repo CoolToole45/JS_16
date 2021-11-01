@@ -39,7 +39,7 @@ function upperToLower(text) {
 }
 
 upperToLower("MY NAME IS JOHN");
-upperToLower("I AM BULLETPROOF!")
+upperToLower("I AM BULLETPROOF!");
 
 // let text = "MY NAME IS JOHN";
 // text_2 = text.toLowerCase();
@@ -51,9 +51,10 @@ upperToLower("I AM BULLETPROOF!")
 function filterArray(numArray) {
     const result = numArray.filter(number => number % 2 == 0);
     console.log(result);
+    return result;
 }
-
-numArray = [4, 6, 1, 3, 7, 13, 14];
+ 
+const numArray = [4, 6, 1, 3, 7, 13, 14];
 filterArray(numArray);
 
 
