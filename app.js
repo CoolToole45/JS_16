@@ -15,24 +15,7 @@ console.log(oddOrEven(17));
 
 // Task 2:
 
-// function getCurrencySymbolFromCode(symbol) {
-//     if(symbol = "USD") {
-//         return (symbol = "$");
-//     }
-//     else if(symbol = "EUR") {
-//         return (symbol = "$");
-//     }
-//     else if(symbol = "GEL") {
-//         return (symbol = "ლ");
-//     }
-//     else {
-//         return 0;
-//     }
-// }
 
-// console.log(getCurrencySymbolFromCode("USD"));
-// console.log(getCurrencySymbolFromCode("EUR"));
-// console.log(getCurrencySymbolFromCode("GEL"));
 
 
 // Task 3:
@@ -67,7 +50,7 @@ filterArray(numArray);
 
 // Task 5: 
 
-function findObject(objArray, name) {
+function findObject(objArray, stringText) {
     myObj = objArray.find(obj => obj.name === "First Object.");
     return myObj;
 }
