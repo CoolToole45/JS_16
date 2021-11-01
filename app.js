@@ -15,8 +15,21 @@ console.log(oddOrEven(17));
 
 // Task 2:
 
+function getCurrencySymbolFromCode(currency) {
+    if(currency === "USD"){
+        return "$";
+    }else if(currency === "EUR"){
+        return "€";
+    }else if(currency === "GEL"){
+        return "ლ";
+    }else{
+        return null;
+    }
+}
 
-
+console.log(getCurrencySymbolFromCode(currency = "USD"));
+console.log(getCurrencySymbolFromCode(currency = "EUR"));
+console.log(getCurrencySymbolFromCode(currency = "GEL"));
 
 // Task 3:
 
